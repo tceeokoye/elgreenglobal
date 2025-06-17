@@ -25,7 +25,7 @@ const AboutUs = () => {
     },
     {
       icon: Award,
-      title: "Excellence",
+      title: "EXCELLENCE",
       description:
         "We strive for the highest standards in everything we do, from service delivery to customer relationships, ensuring that quality is never compromised.",
     },
@@ -79,7 +79,7 @@ const AboutUs = () => {
 
     {
       name: "Brr. Mrs. Chisom Selina Ogbeyalu Elyon",
-      role: "Legal & Operations Manager ElGreen Global Consult",
+      role: "Legal & Operations Manager ",
       image: "/Founder/co-founder.jpg",
       bio: "Barr. Mrs. Elyon provides strategic legal oversight and operational management across the multiple divisions of ElGreen Global Consult including industrial & commercial cleaning, property maintenance & facility management, cleaning equipment supply, waste management systems, landscaping & horticulture, agricultural production & solutions, and general contracting.",
       details:
@@ -87,7 +87,7 @@ const AboutUs = () => {
     },
     {
       name: "Blessing Effiong Asuquo",
-      role: "Project Manager ElGreen Global Consult",
+      role: "Project Manager ",
       image:
         "/Founder/manager.jpg",
       bio: "Ensure seamless project execution, team coordination, timeline management, ",
