@@ -183,14 +183,14 @@ const ContactUs = () => {
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
                     >
                       <option value="">Select a service</option>
-                      <option value="residential">Industrial & Commercial Cleaning</option>
-                      <option value="commercial">Property Maintenance & Facility Management</option>
-                      <option value="deep">Horticulture & Landscaping</option>
-                      <option value="carpet">Agricultural Production</option>
-                      <option value="recurring">Cleaning Equipment Sales</option>
-                      <option value="recurring">Fumigation & Pest Control</option>
-                      <option value="recurring">General Contracting</option>
-                      <option value="recurring">Waste Disposal & Management</option>
+                      <option value="Industrial & Commercial Cleaning">Industrial & Commercial Cleaning</option>
+                      <option value="Property Maintenance & Facility Management">Property Maintenance & Facility Management</option>
+                      <option value="Horticulture & Landscaping">Horticulture & Landscaping</option>
+                      <option value="Agricultural Production">Agricultural Production</option>
+                      <option value="Cleaning Equipment Sales">Cleaning Equipment Sales</option>
+                      <option value="Fumigation & Pest Control">Fumigation & Pest Control</option>
+                      <option value="General Contracting">General Contracting</option>
+                      <option value="Waste Disposal & Management">Waste Disposal & Management</option>
                     </select>
                   </div>
                 </div>
