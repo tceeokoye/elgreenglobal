@@ -5,7 +5,6 @@ import {
   Mail,
   MapPin,
   Facebook,
-  Twitter,
   Instagram,
   Linkedin,
 } from "lucide-react";
@@ -26,42 +25,27 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <Link  to="/">
-            {logo}
-            </Link>
+            <Link to="/">{logo}</Link>
             <p className="text-gray-400 mb-6 leading-relaxed">
               Professional cleaning services you can trust. We transform spaces
               with eco-friendly solutions and exceptional attention to detail.
             </p>
-            <div className="flex space-x-4">
-              <a
-                href="https://facebook.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Facebook className="w-5 h-5 text-gray-400 hover:text-green-400" />
-              </a>
-              {/* <a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Twitter className="w-5 h-5 text-gray-400 hover:text-green-400" />
-              </a> */}
-              <a
-                href="https://www.instagram.com/elgreenglobalconsult?igsh=MXdneXpscDAyN2lnZQ=="
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Instagram className="w-5 h-5 text-gray-400 hover:text-green-400" />
-              </a>
+            <div className="flex flex-wrap justify-start gap-4 mt-4">
               <a
                 href="https://www.facebook.com/share/16LRX6PPTy/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Linkedin className="w-5 h-5 text-gray-400 hover:text-green-400" />
+                <Facebook className="w-6 h-6 text-gray-400 hover:text-green-400" />
               </a>
+              <a
+                href="https://www.instagram.com/elgreenglobalconsult?igsh=MXdneXpscDAyN2lnZQ== "
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Instagram className="w-6 h-6 text-gray-400 hover:text-green-400" />
+              </a>
+            
             </div>
           </div>
 
@@ -209,11 +193,13 @@ const Footer = () => {
           </div>
         </div>
 
+        {/* Footer bottom */}
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <p className="text-gray-400 text-sm mb-4 md:mb-0">
-              © 2025 ELGREEEN. All rights reserved.
+              © 2025 ELGREEN. All rights reserved.
             </p>
+            {/* Uncomment below if you want Terms/Privacy/Cookies */}
             {/* <div className="flex space-x-6">
               <a
                 href="/terms"

@@ -41,7 +41,7 @@ const WhyChooseUs = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Why Choose <span className="text-green-600">ELGREEEN?</span>
+            Why Choose <span className="text-green-600">ELGREEN?</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             Years of proven track record of Experience in diverse environmental services
@@ -79,19 +79,19 @@ const WhyChooseUs = () => {
             </div>
             
             <blockquote className="text-xl md:text-2xl text-gray-700 italic mb-6 max-w-4xl mx-auto">
-              "ELGREEEN has been cleaning our office for years. They're reliable, 
+              "ELGREEN has been cleaning our office for years. They're reliable, 
               professional, and always go above and beyond. Highly recommended!"
             </blockquote>
             
             <div className="flex items-center justify-center">
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=60&h=60&fit=crop&crop=face"
+                src="/testimony/testmonia.jpg"
                 alt="Customer"
                 className="w-12 h-12 rounded-full mr-4"
               />
               <div className="text-left">
-                <div className="font-semibold text-gray-900">Michael Johnson</div>
-                <div className="text-gray-600 text-sm">Office Manager, TechCorp</div>
+                <div className="font-semibold text-gray-900">Mr. Richard Asuquo</div>
+                <div className="text-gray-600 text-sm">Office Manager, sondren's palace royal</div>
               </div>
             </div>
           </div>

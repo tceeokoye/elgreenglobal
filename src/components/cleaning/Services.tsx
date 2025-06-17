@@ -180,18 +180,18 @@ const Services = () => {
                     </li>
                   ))}
                 </ul>
-                <button className="w-full bg-green-600 text-white py-3 rounded-lg hover:bg-green-700 transition-colors font-medium">
+                <a href="https://wa.me/2348062626622" className="w-full flex items-center justify-center bg-green-600 text-white py-3 rounded-lg hover:bg-green-700 transition-colors font-medium">
                   Learn More
-                </button>
+                </a>
               </div>
             </Element>
           ))}
         </div>
 
         <div className="text-center mt-12">
-          <button className="bg-green-600 text-white px-8 py-4 rounded-lg hover:bg-green-700 transition-colors font-semibold text-lg">
+          <a href="https://wa.me/2348062626622" className="bg-green-600 flex w-fit m-auto text-white px-8 py-4 rounded-lg hover:bg-green-700 transition-colors font-semibold text-lg">
             Get Custom Quote
-          </button>
+          </a>
         </div>
       </div>
     </section>

@@ -46,7 +46,7 @@ const Hero = () => {
             <div className="absolute inset-0 bg-black/70" />
 
             {/* Existing Gradient Overlay */}
-            <div className="absolute inset-0 bg-gradient-to-br from-green-900/90 via-green-800/80 to-green-700/80" />
+            <div className="absolute inset-0 bg-gradient-to-br from-green-800/90 via-green-950/80 to-green-700/80" />
           </div>
         ))}
 
@@ -71,18 +71,17 @@ const Hero = () => {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
               Welcome to
               <span className="text-green-300 block">
-                ElGreen Global Consult
+                ELGREEN GLOBAL CONSULT
               </span>
-              You Can Trust
             </h1>
 
             <p className="text-lg text-green-50 mb-8 max-w-2xl">
-              Nigeria's premier provider of integrated environmental and
-              facility management solutions. With years of excellence, we
-              deliver comprehensive services that keep your spaces clean, green,
-              and productive. From industrial cleaning to agricultural
-              production, we are your trusted partner in creating sustainable
-              environments for business and community growth.
+              Top provider of integrated environmental and facility management
+              solutions. With years of excellence, we deliver comprehensive
+              services that keep your spaces clean, green, and productive. From
+              industrial cleaning to agricultural production, we are your
+              trusted partner in creating sustainable environments for business
+              and community growth.
             </p>
 
             {/* Features List */}
@@ -128,7 +127,7 @@ const Hero = () => {
                 <div className="text-green-100 text-sm">Happy Customers</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-green-300">10+</div>
+                <div className="text-3xl font-bold text-green-300"></div>
                 <div className="text-green-100 text-sm">Years Experience</div>
               </div>
               <div className="text-center">

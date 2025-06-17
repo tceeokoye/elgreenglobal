@@ -78,21 +78,21 @@ const AboutUs = () => {
     },
 
     {
-      name: "Br. Mrs. Chisom Selina Ogbeyalu Elyon",
-      role: "Legal & Operations Manager",
+      name: "Brr. Mrs. Chisom Selina Ogbeyalu Elyon",
+      role: "Legal & Operations Manager ElGreen Global Consult",
       image: "/Founder/co-founder.jpg",
-      bio: "Chisom ensures our operations run smoothly and our team delivers consistent, high-quality service.",
+      bio: "Barr. Mrs. Elyon provides strategic legal oversight and operational management across the multiple divisions of ElGreen Global Consult including industrial & commercial cleaning, property maintenance & facility management, cleaning equipment supply, waste management systems, landscaping & horticulture, agricultural production & solutions, and general contracting.",
       details:
-        "Chisom Selina has over a decade of experience in operations and logistics. He plays a key role in planning, coordinating, and executing ELGREEEN’s daily operations.",
+        "Her key responsibilities include ensuring regulatory compliance across all business verticals, managing contracts and vendor agreements, overseeing risk management, streamlining operational processes, and contributing to strategic business planning. With her comprehensive legal background and business acumen, Barr. Elyon ensures that all divisions operate efficiently within established legal frameworks while maintaining high standards of client service and business growth.",
     },
     {
       name: "Blessing Effiong Asuquo",
-      role: "Project Manager",
+      role: "Project Manager ElGreen Global Consult",
       image:
         "/Founder/manager.jpg",
-      bio: "Blessing manages customer relationships and ensures every client receives personalized attention.",
+      bio: "Ensure seamless project execution, team coordination, timeline management, ",
       details:
-        "Blessing brings a customer-first mindset with years of experience in support and communication. She ensures every client experience is seamless and satisfactory.",
+        " quality assurance of project deliverables and client satisfaction across all business divisions.Blessing brings a customer-first mindset with years of experience in support and communication. She ensures every client experience is seamless and satisfactory.",
     },
   ];
 
@@ -106,7 +106,7 @@ const AboutUs = () => {
       <section className="bg-gradient-to-r from-green-600 to-green-700 pt-40 text-white py-20">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            About ELGREEEN
+            About ELGREEN
           </h1>
           <p className="text-xl md:text-2xl text-green-100 max-w-3xl mx-auto">
             ElGreen Global Consult stands as a beacon of excellence in Nigeria's
@@ -160,7 +160,7 @@ const AboutUs = () => {
               Meet Our <span className="text-green-600">Team</span>
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              The dedicated professionals who make ELGREEEN the trusted choice
+              The dedicated professionals who make ELGREEN the trusted choice
               for cleaning services
             </p>
           </div>
@@ -312,7 +312,7 @@ const AboutUs = () => {
           {/* Call-to-Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://wa.me/+2348062626622 text=Hello%20ELGREEEN%2C%20I%27d%20like%20to%20request%20a%20free%20cleaning%20quote."
+              href="https://wa.me/+2348062626622 text=Hello%20ELGREEN%2C%20I%27d%20like%20to%20request%20a%20free%20cleaning%20quote."
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white text-green-600 px-8 py-4 rounded-lg hover:bg-gray-100 transition-colors font-semibold text-lg text-center"
