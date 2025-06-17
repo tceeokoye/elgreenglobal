@@ -91,7 +91,7 @@ const WhyChooseUs = () => {
               />
               <div className="text-left">
                 <div className="font-semibold text-gray-900">Mr. Richard Asuquo</div>
-                <div className="text-gray-600 text-sm">Office Manager, Sondren's palace royal</div>
+                <div className="text-gray-600 text-sm">Office Manager, Sondren's Palace Royale</div>
               </div>
             </div>
           </div>

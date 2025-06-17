@@ -78,7 +78,7 @@ const AboutUs = () => {
     },
 
     {
-      name: "Brr. Mrs. Chisom Selina Ogbeyalu Elyon",
+      name: "Barr. Mrs. Chisom Selina Ogbeyalu Elyon",
       role: "Legal & Operations Manager ",
       image: "/Founder/co-founder.jpg",
       bio: "Barr. Mrs. Elyon provides strategic legal oversight and operational management across the multiple divisions of ElGreen Global Consult including industrial & commercial cleaning, property maintenance & facility management, cleaning equipment supply, waste management systems, landscaping & horticulture, agricultural production & solutions, and general contracting.",
