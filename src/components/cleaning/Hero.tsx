@@ -15,7 +15,9 @@ const Hero = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % backgroundImages.length);
+      setCurrentImageIndex(
+        (prevIndex) => (prevIndex + 1) % backgroundImages.length
+      );
     }, 5000);
 
     return () => clearInterval(interval);
@@ -29,7 +31,9 @@ const Hero = () => {
           <div
             key={index}
             className={`absolute inset-0 transition-all duration-1000 ease-in-out transform ${
-              index === currentImageIndex ? "opacity-100 scale-100" : "opacity-0 scale-110"
+              index === currentImageIndex
+                ? "opacity-100 scale-100"
+                : "opacity-0 scale-110"
             }`}
             style={{
               backgroundImage: `url(${image})`,
@@ -67,9 +71,10 @@ const Hero = () => {
             </h1>
 
             <p className="text-lg text-green-50 mb-8 max-w-2xl">
-              We deliver comprehensive services that keep your spaces clean, green, and productive.
-              From industrial cleaning to agricultural production, we are your trusted partner in
-              creating sustainable environments for business and community growth.
+              We deliver comprehensive services that keep your spaces clean,
+              green, and productive. From industrial cleaning to agricultural
+              production, we are your trusted partner in creating sustainable
+              environments for business and community growth.
             </p>
 
             {/* Features List */}
@@ -89,13 +94,23 @@ const Hero = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
-              <button className="bg-green-600 text-white px-8 py-4 rounded-lg hover:bg-green-700 transition-transform transform hover:scale-105 font-semibold shadow-lg flex items-center justify-center">
+              <a
+                href="https://wa.me/2348062626622?text=Hello!%20I%20want%20to%20book%20now."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-green-600 text-white px-8 py-4 rounded-lg hover:bg-green-700 transition-transform transform hover:scale-105 font-semibold shadow-lg flex items-center justify-center"
+              >
                 Book Now
                 <ArrowRight className="w-5 h-5 ml-2" />
-              </button>
-              <button className="border-2 border-green-300 text-green-100 px-8 py-4 rounded-lg hover:bg-green-600 hover:border-green-600 transition-all font-semibold">
+              </a>
+              <a
+                href="https://wa.me/2348062626622?text=Hello!%20I%20would%20like%20a%20free%20quote."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="border-2 border-green-300 text-green-100 px-8 py-4 rounded-lg hover:bg-green-600 hover:border-green-600 transition-all font-semibold"
+              >
                 Get Free Quote
-              </button>
+              </a>
             </div>
 
             {/* Stats */}
@@ -131,13 +146,17 @@ const Hero = () => {
                     key={i}
                     className={`absolute ${pos.top || ""} ${pos.bottom || ""} ${
                       pos.left || ""
-                    } ${pos.right || ""} w-3 h-3 md:w-4 md:h-4 bg-white rounded-full opacity-50 animate-bounce ${
+                    } ${
+                      pos.right || ""
+                    } w-3 h-3 md:w-4 md:h-4 bg-white rounded-full opacity-50 animate-bounce ${
                       pos.delay || ""
                     }`}
                   />
                 ))}
 
-                <div className="text-6xl md:text-8xl text-green-600 opacity-20">🧽</div>
+                <div className="text-6xl md:text-8xl text-green-600 opacity-20">
+                  🧽
+                </div>
               </div>
 
               {/* Floating Stats */}
