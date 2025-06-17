@@ -104,7 +104,7 @@ const Header = () => {
             </Link>
           ))}
           <a
-            href="tel:+15551234567"
+            href="https://wa.me/2348062626622"
             className="bg-green-600 text-white px-6 py-2 rounded-lg hover:bg-green-700 transition-colors font-medium w-full text-center"
           >
             Get Quote
