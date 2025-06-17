@@ -65,14 +65,18 @@ const Hero = () => {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-              Professional
-              <span className="text-green-300 block">Cleaning Services</span>
+              Welcome to ElGreen Global Consult
+              <span className="text-green-300 block">
+                ElGreen Global Consult
+              </span>
               You Can Trust
             </h1>
 
             <p className="text-lg text-green-50 mb-8 max-w-2xl">
-              We deliver comprehensive services that keep your spaces clean,
-              green, and productive. From industrial cleaning to agricultural
+              Nigeria's premier provider of integrated environmental and
+              facility management solutions. With years of excellence, we
+              deliver comprehensive services that keep your spaces clean, green,
+              and productive. From industrial cleaning to agricultural
               production, we are your trusted partner in creating sustainable
               environments for business and community growth.
             </p>
