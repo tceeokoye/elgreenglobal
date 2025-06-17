@@ -193,8 +193,8 @@ const Gallery = () => {
     <div className="min-h-screen bg-gray-50">
       <Header />
 
-      <section className="bg-gradient-to-br from-green-600 to-green-800 text-white py-16 md:py-24">
-        <div className="container mx-auto px-4 text-center max-w-3xl">
+      <section className="bg-gradient-to-br from-green-600 to-green-800 text-white  py-16 md:py-24">
+        <div className="container pt-20 mx-auto px-4 text-center max-w-3xl">
           <h1 className="text-4xl font-bold mb-6">Our Work Gallery</h1>
           <p className="text-lg text-green-100">
             See the quality of our cleaning services
