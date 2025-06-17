@@ -89,7 +89,7 @@ const AboutUs = () => {
       name: "Blessing Effiong Asuquo",
       role: "Project Manager",
       image:
-        "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&crop=face",
+        "/Founder/manager.jpg",
       bio: "Blessing manages customer relationships and ensures every client receives personalized attention.",
       details:
         "Blessing brings a customer-first mindset with years of experience in support and communication. She ensures every client experience is seamless and satisfactory.",
