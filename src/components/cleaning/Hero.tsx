@@ -65,7 +65,7 @@ const Hero = () => {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-              Welcome to ElGreen Global Consult
+              Welcome to 
               <span className="text-green-300 block">
                 ElGreen Global Consult
               </span>
