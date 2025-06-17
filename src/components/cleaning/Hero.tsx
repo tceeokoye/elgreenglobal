@@ -22,7 +22,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="relative min-h-[100vh] pt-10 flex items-center overflow-hidden">
+    <section className="relative min-h-[100vh] pt-20 flex items-center overflow-hidden">
       {/* Dynamic Background */}
       <div className="absolute inset-0 z-0">
         {backgroundImages.map((image, index) => (
