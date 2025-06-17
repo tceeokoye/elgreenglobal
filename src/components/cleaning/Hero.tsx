@@ -42,7 +42,11 @@ const Hero = () => {
               backgroundRepeat: "no-repeat",
             }}
           >
-            <div className="absolute inset-0 bg-gradient-to-br from-green-900/70 via-green-800/50 to-green-600/60" />
+            {/* Dark Overlay Layer */}
+            <div className="absolute inset-0 bg-black/70" />
+
+            {/* Existing Gradient Overlay */}
+            <div className="absolute inset-0 bg-gradient-to-br from-green-900/90 via-green-800/80 to-green-700/80" />
           </div>
         ))}
 
@@ -65,7 +69,7 @@ const Hero = () => {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-              Welcome to 
+              Welcome to
               <span className="text-green-300 block">
                 ElGreen Global Consult
               </span>
