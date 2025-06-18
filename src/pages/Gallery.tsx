@@ -271,7 +271,7 @@ const Gallery = () => {
                   className={`px-4 py-2 box-border text-sm rounded-md font-medium whitespace-nowrap ${
                     activeTab === tab.key
                       ? "bg-green-600 text-white"
-                      : "text-gray-100 hover:text-green-400"
+                      : "text-gray-900 hover:text-green-400"
                   }`}
                 >
                   {tab.label}
