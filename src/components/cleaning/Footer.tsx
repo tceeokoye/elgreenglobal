@@ -179,7 +179,7 @@ const Footer = () => {
               <div className="flex items-start">
                 <MapPin className="w-5 h-5 text-green-400 mr-3 mt-1" />
                 <a
-                  href="https://maps.google.com/?q=123+Main+Street,New+York,NY+10001"
+                  href="https://www.google.com/maps/search/Road+1+Close,+Area+5+Agbama+housing+Estate++Umuahia,+Abia+state/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-white"
