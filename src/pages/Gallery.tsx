@@ -6,7 +6,9 @@ import Footer from "@/components/cleaning/Footer";
 
 const Gallery = () => {
   const [selectedMedia, setSelectedMedia] = useState<any | null>(null);
-  const [activeTab, setActiveTab] = useState<"all" | "images" | "videos" | "agriculture">("all");
+  const [activeTab, setActiveTab] = useState<
+    "all" | "images" | "videos" | "agriculture"
+  >("all");
 
   useEffect(() => {
     const handleEscape = (e: KeyboardEvent) => {
@@ -21,40 +23,222 @@ const Gallery = () => {
   }, [selectedMedia]);
 
   const mediaItems = [
-    { id: 1, type: "image", url: "/gallary/image3.jpg", title: "Professional House Cleaning", category: "Residential" },
-    { id: 2, type: "image", url: "/gallary/image2.jpg", title: "Modern Clean Home", category: "Residential" },
-    { id: 3, type: "image", url: "/gallary/image4.jpg", title: "Office Cleaning Process", category: "Commercial" },
-    { id: 4, type: "image", url: "/gallary/image5.jpg", title: "Office Cleaning Process", category: "Commercial" },
-    { id: 5, type: "video", url: "/gallary/video1.mp4", thumbnail: "https://images.unsplash.com/photo-1628177142898-93e36e4e3a50?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80", title: "Deep Cleaning", category: "Services" },
-    { id: 7, type: "image", url: "/gallary/image7.jpg", title: "Professional House Cleaning", category: "Residential" },
-    { id: 8, type: "image", url: "/gallary/image8.jpg", title: "House Cleaning process", category: "Residential" },
-    { id: 9, type: "image", url: "/gallary/image9.jpg", title: "Modern Clean Home", category: "Residential" },
-    { id: 10, type: "image", url: "/gallary/image10.jpg", title: "Complex Cleaning", category: "Commercial" },
-    { id: 11, type: "image", url: "/gallary/image11.jpg", title: "Before", category: "Results" },
-    { id: 12, type: "image", url: "/gallary/image12.jpg", title: "After", category: "Results" },
-    { id: 13, type: "image", url: "/gallary/image13.jpg", title: "Work in progress", category: "Results" },
-    { id: 14, type: "image", url: "/gallary/image14.jpg", title: "Before & After", category: "Results" },
-    { id: 15, type: "image", url: "/gallary/image15.jpg", title: "Professional House Cleaning", category: "Residential" },
-    { id: 16, type: "image", url: "/gallary/image17.jpg", title: "Industrial Facility Cleaning", category: "Industrial" },
-    { id: 17, type: "image", url: "/gallary/image19.jpg", title: "Complex cleaning", category: "Commercial" },
-    { id: 18, type: "image", url: "/gallary/image20.jpg", title: "Professional House Cleaning", category: "Residential" },
-    { id: 19, type: "image", url: "/gallary/image21.jpg", title: "Professional House Cleaning", category: "Residential" },
-    { id: 20, type: "image", url: "/gallary/image24.jpg", title: "Professional House Cleaning", category: "Residential" },
-    { id: 22, type: "image", url: "/gallary/image22.jpg", title: "Pig farming", category: "Swine barn" },
-    { id: 23, type: "image", url: "/gallary/image23.jpg", title: "Fish Pond", category: "Fish Pond" },
-    { id: 24, type: "image", url: "/gallary/FLOWERS/flower1.jpg", title: "Christmas tree", category: "Flowers" },
-    { id: 25, type: "image", url: "/gallary/FLOWERS/flower2.jpg", title: "Guava stands", category: "Agriculture" },
-    { id: 26, type: "image", url: "/gallary/FLOWERS/flower3.jpg", title: "Hybrid coconut", category: "Coconut stands" },
-    { id: 27, type: "image", url: "/gallary/FLOWERS/flower4.jpg", title: "Flower pots", category: "Agriculture" },
-    { id: 28, type: "image", url: "/gallary/FLOWERS/flower5.jpg", title: "Foxtail palm", category: "Palm stands" },
-    { id: 29, type: "image", url: "/gallary/FLOWERS/flower6.jpg", title: "Euphorbia", category: "Agriculture" },
+    {
+      id: 1,
+      type: "image",
+      url: "/gallary/image3.jpg",
+      title: "Professional House Cleaning",
+      category: "Residential",
+    },
+    {
+      id: 2,
+      type: "image",
+      url: "/gallary/image2.jpg",
+      title: "Modern Clean Home",
+      category: "Residential",
+    },
+    {
+      id: 3,
+      type: "image",
+      url: "/gallary/image4.jpg",
+      title: "Office Cleaning Process",
+      category: "Commercial",
+    },
+    {
+      id: 4,
+      type: "image",
+      url: "/gallary/image5.jpg",
+      title: "Office Cleaning Process",
+      category: "Commercial",
+    },
+    {
+      id: 5,
+      type: "video",
+      url: "/gallary/video1.mp4",
+      thumbnail:
+        "https://images.unsplash.com/photo-1628177142898-93e36e4e3a50?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      title: "Deep Cleaning",
+      category: "Services",
+    },
+    {
+      id: 7,
+      type: "image",
+      url: "/gallary/image7.jpg",
+      title: "Professional House Cleaning",
+      category: "Residential",
+    },
+    {
+      id: 8,
+      type: "image",
+      url: "/gallary/image8.jpg",
+      title: "House Cleaning process",
+      category: "Residential",
+    },
+    {
+      id: 9,
+      type: "image",
+      url: "/gallary/image9.jpg",
+      title: "Modern Clean Home",
+      category: "Residential",
+    },
+    {
+      id: 10,
+      type: "image",
+      url: "/gallary/image10.jpg",
+      title: "Complex Cleaning",
+      category: "Commercial",
+    },
+    {
+      id: 11,
+      type: "image",
+      url: "/gallary/image11.jpg",
+      title: "Before",
+      category: "Results",
+    },
+    {
+      id: 12,
+      type: "image",
+      url: "/gallary/image12.jpg",
+      title: "After",
+      category: "Results",
+    },
+    {
+      id: 13,
+      type: "image",
+      url: "/gallary/image13.jpg",
+      title: "Work in progress",
+      category: "Results",
+    },
+    {
+      id: 14,
+      type: "image",
+      url: "/gallary/image14.jpg",
+      title: "Before & After",
+      category: "Results",
+    },
+    {
+      id: 15,
+      type: "image",
+      url: "/gallary/image15.jpg",
+      title: "Professional House Cleaning",
+      category: "Residential",
+    },
+    {
+      id: 16,
+      type: "image",
+      url: "/gallary/image17.jpg",
+      title: "Industrial Facility Cleaning",
+      category: "Industrial",
+    },
+    {
+      id: 17,
+      type: "image",
+      url: "/gallary/image19.jpg",
+      title: "Complex cleaning",
+      category: "Commercial",
+    },
+    {
+      id: 18,
+      type: "image",
+      url: "/gallary/image20.jpg",
+      title: "Professional House Cleaning",
+      category: "Residential",
+    },
+    {
+      id: 19,
+      type: "image",
+      url: "/gallary/image21.jpg",
+      title: "Professional House Cleaning",
+      category: "Residential",
+    },
+    {
+      id: 20,
+      type: "image",
+      url: "/gallary/image24.jpg",
+      title: "Professional House Cleaning",
+      category: "Residential",
+    },
+    {
+      id: 22,
+      type: "image",
+      url: "/gallary/image22.jpg",
+      title: "Pig farming",
+      category: "Swine barn",
+    },
+    {
+      id: 23,
+      type: "image",
+      url: "/gallary/image23.jpg",
+      title: "Fish Pond",
+      category: "Fish Pond",
+    },
+    {
+      id: 24,
+      type: "image",
+      url: "/gallary/FLOWERS/flower1.jpg",
+      title: "Christmas tree",
+      category: "Flowers",
+    },
+    {
+      id: 25,
+      type: "image",
+      url: "/gallary/FLOWERS/flower2.jpg",
+      title: "Guava stands",
+      category: "Agriculture",
+    },
+    {
+      id: 26,
+      type: "image",
+      url: "/gallary/FLOWERS/flower3.jpg",
+      title: "Hybrid coconut",
+      category: "Coconut stands",
+    },
+    {
+      id: 27,
+      type: "image",
+      url: "/gallary/FLOWERS/flower4.jpg",
+      title: "Flower pots",
+      category: "Agriculture",
+    },
+    {
+      id: 28,
+      type: "image",
+      url: "/gallary/FLOWERS/flower5.jpg",
+      title: "Foxtail palm",
+      category: "Palm stands",
+    },
+    {
+      id: 29,
+      type: "image",
+      url: "/gallary/FLOWERS/flower6.jpg",
+      title: "Euphorbia",
+      category: "Agriculture",
+    },
   ];
 
   const filteredMedia = mediaItems.filter((item) => {
     if (activeTab === "all") return true;
-    if (activeTab === "images") return item.type === "image" && item.category !== "Flowers" && item.category !== "Fish Pond" && item.category !== "Swine barn";
+    if (activeTab === "images")
+      return (
+        item.type === "image" &&
+        item.category !== "Flowers" &&
+        item.category !== "Fish Pond" &&
+        item.category !== "Swine barn"
+      );
     if (activeTab === "videos") return item.type === "video";
-    if (activeTab === "agriculture") return item.type === "image" && ["Agriculture", "Guava stands", "Fish Pond", "Coconut stands", "Palm stands", "Swine barn", "Flower pots"].includes(item.category);
+    if (activeTab === "agriculture")
+      return (
+        item.type === "image" &&
+        [
+          "Agriculture",
+          "Guava stands",
+          "Fish Pond",
+          "Coconut stands",
+          "Palm stands",
+          "Swine barn",
+          "Flower pots",
+        ].includes(item.category)
+      );
     return true;
   });
 
@@ -65,14 +249,16 @@ const Gallery = () => {
       <section className="bg-gradient-to-br from-green-600 to-green-800 text-white py-16 md:py-24">
         <div className="container pt-20 mx-auto px-4 text-center max-w-3xl">
           <h1 className="text-4xl font-bold mb-6">Our Work Gallery</h1>
-          <p className="text-lg text-green-100">See the quality of our cleaning services</p>
+          <p className="text-lg text-green-100">
+            See the quality of our cleaning services
+          </p>
         </div>
       </section>
 
       <section className="py-12 md:py-20">
         <div className="container mx-auto px-4">
           <div className="flex justify-center mb-8">
-            <div className="bg-white rounded-lg p-1 shadow-lg flex gap-2">
+            <div className="rounded-lg p-1 shadow-lg flex flex-wrap justify-center gap-2 gap-y-2 w-full box-border">
               {[
                 { key: "all", label: "All Media" },
                 { key: "images", label: "Photos" },
@@ -82,10 +268,10 @@ const Gallery = () => {
                 <button
                   key={tab.key}
                   onClick={() => setActiveTab(tab.key as any)}
-                  className={`px-4 py-2 rounded-md font-medium ${
+                  className={`px-4 py-2 box-border text-sm rounded-md font-medium whitespace-nowrap ${
                     activeTab === tab.key
                       ? "bg-green-600 text-white"
-                      : "text-gray-600 hover:text-green-600"
+                      : "text-gray-100 hover:text-green-400"
                   }`}
                 >
                   {tab.label}
